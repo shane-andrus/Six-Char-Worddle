@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<Character> word = new ArrayList<Character>();
-        File wordFile = new File("src/words.txt");
+        File wordFile = new File("./words.txt");
         String line = getRandomLine(wordFile.toString());
         for(Character letter: line.toCharArray()) {
             word.add(letter);
